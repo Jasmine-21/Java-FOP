@@ -2,6 +2,7 @@ import java.util.*;
 
 class InfixtoPostfix{
     public static int getprec(char element) {
+        //check operand
         if (element == '+' || element == '-') {
             return 1;
         } else if (element == '*' || element == '/') {
