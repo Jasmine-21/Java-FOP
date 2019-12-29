@@ -1,7 +1,7 @@
 package github;
 
 import java.util.*; 
-
+//keypair-two elements in whose sum is equal to x
 class Keypairs {     
 	static boolean hasArrayTwoCandidates(int A[], int arr_size, int sum) 
     { 
