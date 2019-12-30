@@ -1,5 +1,6 @@
 package github;
 import java.util.*;
+//count of pairs with given sum
 public class count_pairs_sum {
 	public static void main (String[] args) {
 		//code
