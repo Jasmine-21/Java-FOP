@@ -14,8 +14,7 @@ printFifthElementFromStart(queue);
 
 	}
     static void printFifthElementFromStart(Queue<Integer> queue) {
-    int n=queue.size();
-    if(n<5)
+    if(queue.size()<5)
     {
         System.out.println("There are no enough elements in the queue");
 
